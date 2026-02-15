@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExpressVPN - The VPN that just works</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Simple Header with main message -->
+    <header class="main-header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="header-title">The VPN that just works</h1>
+                <p class="header-subtitle">Go further with the #1 trusted leader in VPN</p>
+                <a href="#" class="btn btn-primary btn-large">Get ExpressVPN <i class="fas fa-arrow-right"></i></a>
+                <p class="money-back">30-day money-back guarantee</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-text">ExpressVPN</span>
+            </div>
+            <div class="nav-links">
+                <a href="#">What is VPN?</a>
+                <a href="#">Reviews</a>
+                <a href="#">Support</a>
+                <a href="#">Blog</a>
+                <div class="nav-actions">
+                    <a href="#" class="lang-selector">
+                        <i class="fas fa-globe"></i> English
+                    </a>
+                    <a href="#" class="btn btn-login">Log In</a>
+                    <a href="#" class="btn btn-primary">Get ExpressVPN</a>
+                </div>
+            </div>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            
+            <!-- Feature 1 -->
+            <div class="feature">
+                <div class="feature-content">
+                    <h2 class="feature-title">Secure access, worldwide</h2>
+                    <p class="feature-description">Connect reliably from anywhere, to anywhere. Our network of high-speed servers across 84 countries puts you in control.</p>
+                    <a href="#" class="btn btn-primary">Get ExpressVPN <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="feature-image">
+                    <img src="images/secure-access.webp" alt="World map showing VPN connections">
+                </div>
+            </div>
+
+            <!-- Feature 2 -->
+            <div class="feature feature-reverse">
+                <div class="feature-content">
+                    <h2 class="feature-title">One click to a safer internet</h2>
+                    <p class="feature-description">Going online doesn't have to mean being exposed. Whether you're shopping from your desk or just connecting at a cafe, keep your personal information more private and secure.</p>
+                    <a href="#" class="btn btn-outline">See all apps <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="feature-image">
+                    <img src="images/one-click.webp" alt="One-click VPN activation">
+                </div>
+            </div>
+
+            <!-- Feature 3 -->
+            <div class="feature">
+                <div class="feature-content">
+                    <h2 class="feature-title">Use ExpressVPN on every device</h2>
+                    <p class="feature-description">Phone, tablet, computer, router—no matter where you are or what devices you're using, a single ExpressVPN subscription has got you covered.</p>
+                    <a href="#" class="btn btn-outline">See all apps <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="feature-image">
+                    <img src="images/every-device.webp" alt="Multiple devices showing VPN protection">
+                </div>
+            </div>
+
+            <!-- Call to Action -->
+            <div class="cta-section">
+                <a href="#" class="btn btn-primary btn-large">Get ExpressVPN <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <!-- Advantage Cards -->
+            <div class="advantages">
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="advantage-title">Stronger data protection</h3>
+                    <p class="advantage-description">Take charge of your online privacy and security with best-in-class encryption.</p>
+                    <a href="#" class="advantage-link">See more advantages <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <i class="fas fa-globe-americas"></i>
+                    </div>
+                    <h3 class="advantage-title">Works seamlessly everywhere</h3>
+                    <p class="advantage-description">Experience the internet the way it's meant to be. On the go, at any hour.</p>
+                    <a href="#" class="advantage-link">See more advantages <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3 class="advantage-title">Lightning-quick connectivity</h3>
+                    <p class="advantage-description">Our VPN network is built for speed, powered by next-generation technology.</p>
+                    <a href="#" class="advantage-link">See more advantages <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- Server Locations -->
+            <div class="server-locations">
+                <h2 class="server-title">Ultra-fast servers around the globe</h2>
+                <div class="server-stats">
+                    <div class="stat">
+                        <div class="stat-number">160</div>
+                        <div class="stat-label">locations</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">94</div>
+                        <div class="stat-label">countries</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number"><i class="fas fa-infinity"></i></div>
+                        <div class="stat-label">unlimited bandwidth</div>
+                    </div>
+                </div>
+                <div class="server-map">
+                    <img src="images/globe-map.webp" alt="World map showing server locations">
+                </div>
+                <div class="server-link">
+                    <a href="#" class="btn btn-outline">See our full list of VPN server locations <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">Product</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">VPN for Mac</a></li>
+                        <li><a href="#">VPN for Windows</a></li>
+                        <li><a href="#">VPN for iPhone & iPad</a></li>
+                        <li><a href="#">VPN for Android</a></li>
+                        <li><a href="#">VPN for Router</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Learn More</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">What is a VPN?</a></li>
+                        <li><a href="#">Top 5 VPN Uses</a></li>
+                        <li><a href="#">How to Browse Anonymously</a></li>
+                        <li><a href="#">Internet Privacy Tips</a></li>
+                        <li><a href="#">Stream TV Channels Abroad</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Tools & Info</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">What Is My IP?</a></li>
+                        <li><a href="#">DNS Leak Test</a></li>
+                        <li><a href="#">WebRTC Leak Test</a></li>
+                        <li><a href="#">Password Generator</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">About ExpressVPN</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Plans & Pricing</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Server Locations</a></li>
+                        <li><a href="#">Reviews</a></li>
+                        <li><a href="#">Press</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    © 2026 ExpressVPN. All rights reserved.
+                </div>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Preferences</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
